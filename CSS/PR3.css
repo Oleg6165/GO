@@ -1,0 +1,140 @@
+.body {
+	height: 100%;
+	line-height: 1;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+
+
+
+.container_2 {
+	margin-top: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.main_2_details {
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+}
+
+.container_2_little {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 50% 50%;
+	g
+}
+
+.main_2_info {
+	display: flex;
+	flex-direction: column;
+}
+
+.main_2_OVAL {
+
+	border-radius: 10px;
+	height: 32px;
+	width: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #1e2028a1;
+	margin-top: 15px;
+	margin-right: 30px;
+}
+
+.main_2_oglavlenie {
+	font-size: 28px;
+	font-weight: 600;
+}
+
+.main_2_opisanie {
+	font-weight: 300;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+
+
+
+
+.end_main_2 {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: 50% 50%;
+	margin-top: 50px;
+}
+
+.square {
+	height: 350px;
+	background: #1E2028;
+	margin-top: 20px;
+	margin-left: 20px;
+	border-radius: 10px;
+}
+
+.end_main_2_obolochka {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: stretch;
+
+	justify-items: baseline;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.end_main_2_read_more {
+	color: #A1C5E9;
+	font-weight: 400;
+	font-size: 14px;
+	display: flex;
+	flex-direction: row;
+	margin-top: 100px;
+	justify-content: space-between;
+	align-items: center;
+	width: 110px;
+
+}
+
+
+
+.square {
+	transition: all 2s;
+}
+
+.square:hover {
+	transform: rotate(360deg);
+}
+
+
+
+
+@media only screen and (max-width:1200px) {
+
+	.square {
+		transition: none;
+	}
+
+	.end_main_2_read_more {
+
+		margin-top: 0px;
+	}
+
+	.end_main_2_obolochka {}
+}
+
+@media only screen and(max-width:800px) {
+
+	.square {
+		transition: none;
+	}
+
+	.square {
+		margin: 0;
+	}
+}
